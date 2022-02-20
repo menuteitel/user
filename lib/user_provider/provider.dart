@@ -14,12 +14,6 @@ class UserProvider extends ChangeNotifier {
   bool _cargandoDatos = false;
   bool get cargandoDatos => _cargandoDatos;
 
-  // get charged => null;
-
-  // get file => null;
-
-  // agregarALaLista() {}
-
   Future getUserData() async {
     _cargandoDatos = true;
     notifyListeners();
